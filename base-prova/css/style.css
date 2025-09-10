@@ -87,17 +87,20 @@ section.service h2 span {
 
 section.service div ul {
   display: flex;
+  align-items: center;
 }
 
 section.service div ul li h3 {
   font-size: 2rem;
   color: #343F52;
   display: flex;
+  margin: 10px 20px 10px 20px;
 }
 
 section.service div ul li p {
   color: #60697B;
   font-size: 1.1rem;
+  margin: 10px 20px 10px 20px;
 }
 
 section.service div ul li button {
@@ -113,25 +116,28 @@ section.model {
   margin: 10px;
   border-radius: 20px;
 }
-section.model div ul {
+
+section.model ul li div.flex-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  padding: 10px 5px 10px 5px;
+  margin: 10px;
+  flex-wrap: wrap;
 }
-section.model li  {
-  align-items: center;
-}
-  
+
 section.model h2 {
   color: #343F52;
   text-align: center;
   font-size: 2rem;
   font-weight: bold;
 }
+
 section.model ul li h3 {
   text-align: center;
   font-size: 1.9rem;
   color: #343F52;
 }
+
 section.model ul li p {
   color: #60697B;
   text-align: center;
@@ -147,7 +153,12 @@ section.final {
 
 section.final p {
   color: #FFFFFF;
+  text-align: center;
 }
-section.final ul li a {
-  
+
+section.final div.flex-container {
+  display: flex;
+  justify-content: center;
+  padding: 10px 5px 10px 5px;
+  margin: 10px;
 }
