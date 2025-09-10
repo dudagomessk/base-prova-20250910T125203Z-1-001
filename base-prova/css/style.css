@@ -1,0 +1,155 @@
+:root {
+  --main-bg-color: brown;
+  font-size: clamp(0.9375rem, 0.9119rem + 0.1136vw, 1rem);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  /* remove o sublinhado dos links */
+  color: black;
+  /* altera a cor de todos os links das páginas */
+}
+
+/*topo*/
+
+body {
+  background-color: #E9EAF8;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+header nav ul {
+  display: flex;
+}
+
+header nav ul li {
+  padding: 22px;
+}
+
+header nav ul li a.botao {
+  background-color: #747ED1;
+  color: white;
+  border-radius: 30px;
+  padding: 16px;
+}
+
+header nav img {
+  padding: 15px;
+  width: 7vw;
+
+}
+
+section.topo {
+  background-color: #51225E;
+  padding: 9vw 30vw;
+  margin: 10px;
+  border-radius: 20px;
+
+}
+
+section.topo h2 {
+  color: white;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+
+}
+
+section.topo p {
+  color: white;
+  text-align: center;
+  margin: 12px;
+}
+
+section.service {
+  background-color: #FFFFFF;
+  padding: 9vw 30vw;
+  margin: 10px;
+  border-radius: 20px;
+
+}
+
+section.service h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin: 10px;
+  color: #343F52;
+}
+
+section.service h2 span {
+  color: #8D9DB9;
+}
+
+section.service div ul {
+  display: flex;
+}
+
+section.service div ul li h3 {
+  font-size: 2rem;
+  color: #343F52;
+  display: flex;
+}
+
+section.service div ul li p {
+  color: #60697B;
+  font-size: 1.1rem;
+}
+
+section.service div ul li button {
+  background-color: #E9EAF8;
+  color: #747ED1;
+  border-radius: 30px;
+  padding: 20px;
+}
+
+section.model {
+  background-color: #FFFFFF;
+  padding: 9vw 30vw;
+  margin: 10px;
+  border-radius: 20px;
+}
+section.model div ul {
+  display: flex;
+  justify-content: space-between;
+}
+section.model li  {
+  align-items: center;
+}
+section.model li a {
+  
+}
+section.model h2 {
+  color: #343F52;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+}
+section.model ul li h3 {
+  text-align: center;
+  font-size: 1.9rem;
+  color: #343F52;
+}
+section.model ul li p {
+  color: #60697B;
+  text-align: center;
+  font-size: 1.0rem;
+}
+
+section.final {
+  background-color: #21262C;
+  padding: 1.0vw 30vw;
+  margin: 10px;
+  border-radius: 20px;
+}
+
+section.final p {
+  color: #FFFFFF;
+}
+section.final ul li a {
+  
+}
